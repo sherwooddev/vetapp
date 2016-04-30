@@ -78,9 +78,19 @@ class SampleData: NSObject {
             messageNumber: CNPhoneNumber(stringValue: "888-555-5512"),
             emailAddress: nil,
             monogram: "TC",
-            image: nil)
+            image: nil),
+     
+        OCKContact(contactType: .Personal,
+          name: "Anya Sherwood",
+          relation: "Mother",
+          tintColor: Colors.Yellow.color,
+          phoneNumber: CNPhoneNumber(stringValue: "888-555-5512"),
+          messageNumber: CNPhoneNumber(stringValue: "888-555-5512"),
+          emailAddress: nil,
+          monogram: "TC",
+          image: nil)
     ]
-    
+  
     // MARK: Initialization
     
     required init(carePlanStore: OCKCarePlanStore) {
