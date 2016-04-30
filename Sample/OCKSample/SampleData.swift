@@ -71,7 +71,7 @@ class SampleData: NSObject {
             image: nil),
         
         OCKContact(contactType: .Personal,
-            name: "Tom Clark",
+            name: "John Sherwood",
             relation: "Father",
             tintColor: Colors.Yellow.color,
             phoneNumber: CNPhoneNumber(stringValue: "888-555-5512"),
